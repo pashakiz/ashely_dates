@@ -255,22 +255,22 @@
         padding: 0 0 0 85px;
         text-align: left;
     }
-    .content_bg.bg19 {
+    .content_bg.bg01 {
         background-image: url('../img/bg/signup/01d.jpg');
     }
-    .content_bg.bg20 {
+    .content_bg.bg02 {
         background-image: url('../img/bg/signup/02d.jpg');
     }
-    .content_bg.bg21 {
+    .content_bg.bg03 {
         background-image: url('../img/bg/signup/03d.jpg');
     }
-    .content_bg.bg22 {
+    .content_bg.bg04 {
         background-image: url('../img/bg/signup/04d.jpg');
     }
-    .content_bg.bg23 {
+    .content_bg.bg05 {
         background-image: url('../img/bg/signup/05d.jpg');
     }
-    .content_bg.bg24 {
+    .content_bg.bg06 {
         background-image: url('../img/bg/signup/06d.jpg');
     }
     .content_bg .h2-login {
@@ -377,7 +377,7 @@
         margin-bottom: 2.4375rem;
     }
     a.smallink {
-        font-size: 12px;
+        font-size: 13px;
     }
     .custom-checkbox .custom-control-label {
         font-size: 15px;

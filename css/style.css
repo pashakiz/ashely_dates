@@ -45,7 +45,7 @@ body {
 .preloader .loader {
     width: 50px;
     height: 50px;
-    background-image: url('../img/icons/liked.svg');
+    background-image: url('../img/icons/logo.svg');
     position: absolute;
     top: 50%;
     left: 50%;
@@ -113,7 +113,7 @@ body {
     position: relative;
 }
 .content_bg:before {
-    content: '';
+    /*content: '';*/
     position: absolute;
     top: 0;
     left: 0;
@@ -126,23 +126,23 @@ body {
     position: relative;
     z-index: 20;
 }
-.content_bg.bg19 {
+.content_bg.bg01 {
     background-image: url('../img/bg/signup/01m.jpg');
 }
-.content_bg.bg20 {
+.content_bg.bg02 {
     background-image: url('../img/bg/signup/02m.jpg');
 }
-.content_bg.bg21 {
-    background-image: url('../img/bg/signup/03.jpg');
+.content_bg.bg03 {
+    background-image: url('../img/bg/signup/03m.jpg');
 }
-.content_bg.bg22 {
-    background-image: url('../img/bg/signup/04.jpg');
+.content_bg.bg04 {
+    background-image: url('../img/bg/signup/04m.jpg');
 }
-.content_bg.bg23 {
-    background-image: url('../img/bg/signup/05.jpg');
+.content_bg.bg05 {
+    background-image: url('../img/bg/signup/05m.jpg');
 }
-.content_bg.bg24 {
-    background-image: url('../img/bg/signup/06.jpg');
+.content_bg.bg06 {
+    background-image: url('../img/bg/signup/06m.jpg');
 }
 .content_bg .h2-login {
     color: #fff;
@@ -318,12 +318,13 @@ h1 {
 h2 {
     font-family: "Gotham", sans-serif;
     font-weight: 800;
-    font-size: 13px;
+    font-size: 12px;
     color: #71757A;
     margin: 0 0 40px;
     text-transform: uppercase;
 }
 .h2-login {
+    font-size: 13px;
     margin: 10px 0 49px;
 }
 p {
@@ -332,7 +333,11 @@ p {
     margin-bottom: 2rem;
     line-height: 28px;
 }
+p > b {
+    font-weight: 500;
+}
 p.ph {
+    font-size: 13px;
     font-weight: 500;
     color: #606060;
     margin-bottom: 1rem;
@@ -351,7 +356,7 @@ a:hover {
     text-decoration: none;
 }
 a.smallink {
-    font-size: 11px;
+    font-size: 12px;
 }
 .collage {
     margin-bottom: 115px;
@@ -664,21 +669,21 @@ a.smallink {
 }
 .form-control {
     border: none;
-    background-color: #E8F2F0;
+    background-color: #F2F2F2;
     border-radius: 29px;
     padding: 1.325rem 1.625rem;
     color: #7A7A7A;
-    font-family: "Montserrat", sans-serif;
-    font-size: 12px;
+    font-family: "Gothamt", sans-serif;
     font-weight: 400;
+    font-size: 13px;
 }
 .form-control:hover {
-    background-color: #DDE9E7;
+    background-color: #F2F2F2;
     color: #646464;
 }
 .form-control:focus {
     box-shadow: none;
-    background-color: #DDE9E7;
+    background-color: #F2F2F2;
     color: #646464;
 }
 input.form-control {
@@ -693,9 +698,9 @@ textarea.form-control {
 }
 .custom-checkbox .custom-control-label {
     line-height: 1.6;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Gotham", sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 13px;
     cursor: pointer;
 }
 .custom-checkbox .custom-control-label::before {
@@ -755,7 +760,7 @@ textarea.form-control {
     outline: none !important;
 }
 .custom-radio .custom-control-input:checked~.custom-control-label::after {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='4' fill='%2320A892'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='4' fill='%23B67FC8'/%3E%3C/svg%3E");
 }
 .custom-radio .custom-control-input:checked~.custom-control-label::before {
     border-color: #EFEFEF;
@@ -810,7 +815,7 @@ textarea.form-control {
     transition: transform .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-transform .15s ease-in-out;
 }
 .custom-switch .custom-control-input:checked~.custom-control-label::after {
-    background-color: #20A892;
+    background-color: #B67FC8;
     -webkit-transform: translateX(1.375rem);
     transform: translateX(1.375rem);
 }
@@ -876,7 +881,7 @@ textarea.form-control {
     padding: 1.063rem 1.225rem;
     font-family: "Gotham", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
 }
 .btn:focus {
@@ -893,11 +898,11 @@ textarea.form-control {
 }
 .btn2 {
     color: #fff;
-    background-color: #90A4A0;
+    background-color: #A2A2A2;
 }
 .btn2:hover {
     color: #fff;
-    background-color: #819490;
+    background-color: #858585;
 }
 .btn__icon {
     vertical-align: middle;
@@ -925,5 +930,8 @@ textarea.form-control {
 .btn_mini {
     font-size: 8px;
     padding: .407rem 1rem;
+}
+.firstscreen__btn {
+    font-size: 16px;
 }
 /*----------------------------------------------------------------------------------------------------*/
