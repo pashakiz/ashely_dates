@@ -26,7 +26,7 @@ body textarea:required:valid {
 body {
     font-family: "Gotham", sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 13px;
     color: #7A7A7A;
     background-color: #fff;
 }
