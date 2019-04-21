@@ -175,16 +175,16 @@
         padding: 0;
     }
     .user-profile__name {
-        font-size: 20px;
+        font-size: 17px;
         line-height: 26px;
         margin-bottom: 8px;
     }
     .user-profile__loc {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 19px;
     }
     .user-profile__h4 {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
     }
     .user-profile__compability {
@@ -200,12 +200,9 @@
         height: 60px;
     }
     .user-profile__chart-title {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 20px;
         margin-top: 16px;
-    }
-    .user-profile__chart-title span {
-        font-size: 13px;
     }
     .user-profile__text {
         margin-bottom: 0;
@@ -447,19 +444,19 @@
         margin-bottom: 18px;
     }
     .user__name {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 20px;
         margin-bottom: 6px;
     }
     .user__location {
-        font-size: 11px;
+        font-size: 14px;
         line-height: 14px;
     }
     .compability__charts {
         margin-left: -25px;
     }
     .compability__title {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 15px;
         margin-bottom: 10px;
     }
