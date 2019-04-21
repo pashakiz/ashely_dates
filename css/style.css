@@ -170,18 +170,21 @@ body {
 }
 .logo.logo_main {}
 .logo.logo_main .logo__img {
-    width: 50px;
-    height: 47px;
+    width: 45px;
+    height: 41px;
     background-image: url('../img/icons/logo.svg');
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 8px;
+    margin: 0 auto 8px;
 }
 .logo.logo_main .logo__text {
     font-size: 32px;
 }
 .logo.logo_header .logo__img {
     float: left;
+    background-image: url('../img/icons/logo-header.svg');
+}
+.logo.logo_header .logo__text {
+    color: #9864AA;
+    font-size: 20px;
 }
 .logo.logo_footer {
     /*display: inline-block;*/
@@ -192,6 +195,10 @@ body {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 15px;
+    background-image: url('../img/icons/logo-dark.svg');
+}
+.logo.logo_footer .logo__text {
+    color: #A2A2A2;
 }
 .slogan {
     font-family: "Gotham", sans-serif;
@@ -209,7 +216,7 @@ body {
     padding-bottom: 18px;
 }
 .header__btn {
-    color: #fff;
+    color: #9864AA;
     font-size: 20px;
     cursor: pointer;
 }
@@ -221,24 +228,24 @@ body {
     background-color: #B67FC8;
     padding: 19px 30px 18px;
     color: #fff;
-    font-family: "FuturaNew", sans-serif;
+    font-family: "Gotham", sans-serif;
 }
 .header-menu__item:hover {
-    background-color: #128D79;
+    background-color: #9563A5;
     text-decoration: none;
 }
 .header-menu__item-text {
-    padding-right: 15px;
-    font-weight: 300;
-    font-size: 16px;
+    padding-right: 13px;
+    font-weight: 500;
+    font-size: 13px;
     color: #fff;
 }
 .header-wrap .notice {
     display: inline-block;
-    background-color: #FC3434;
-    border-radius: 10px;
-    color: #fff;
-    font-weight: 700;
+    background-color: #FFF;
+    border-radius: 50%;
+    color: #7A7A7A;
+    font-weight: 800;
     font-size: 9px;
     padding: 5px 4px;
     min-width: 19px;
@@ -254,9 +261,9 @@ body {
 }
 .header-userinfo__text,
 a.header-userinfo__text {
-    font-family: "FuturaNew", sans-serif;
-    font-size: 16px;
-    font-weight: 300;
+    font-family: "Gotham", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
     color: #fff;
     line-height: 1;
     position: relative;
@@ -266,9 +273,12 @@ a.header-userinfo__text {
     opacity: 0.9;
 }
 .header__userinfo .notice {
+    min-width: 5px;
+    height: 5px;
+    padding: 0;
     position: absolute;
-    top: -14px;
-    right: -9px;
+    top: 0;
+    right: -8px;
 }
 .content {
     background-color: #fff;
@@ -307,7 +317,7 @@ h1 {
 }
 h2 {
     font-family: "Gotham", sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 13px;
     color: #71757A;
     margin: 0 0 40px;
